@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\InvoiceService\InvoiceService.csproj" />
+    <ProjectReference Include="..\PremiumRides\PremiumRides.csproj" />
   </ItemGroup>
 
 </Project>
