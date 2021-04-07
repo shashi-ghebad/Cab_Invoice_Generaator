@@ -1,10 +1,11 @@
 
 //using EnhancedInvoice;
 //using CabInvoiceGenerator;
-using InvoiceService;
+//using InvoiceService;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 //using MultipleaRides;
 using NUnit.Framework;
+using PremiumRides;
 
 namespace UnitTestProject1
 {
