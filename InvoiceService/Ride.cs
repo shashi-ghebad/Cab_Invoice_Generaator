@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace EnhancedInvoice
+namespace InvoiceService
 {
     public class Ride
     {
