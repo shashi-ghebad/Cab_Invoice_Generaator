@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CabInvoiceGenerator
+namespace MultipleaRides
 {
     public enum RideType { NORMAL, PREMIUM }
 }
