@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 
-namespace MultipleaRides
+namespace EnhancedInvoice
 {
     public class InvoiceSummary
     {
         private int numberOfRides;
-        private double totalFare;
+        public double totalFare;
         private double averageFare;
         public InvoiceSummary(int numberOfRides, double totalFare)
         {
@@ -29,4 +31,5 @@ namespace MultipleaRides
             return this.numberOfRides.GetHashCode() ^ this.totalFare.GetHashCode() ^ this.averageFare.GetHashCode();
         }
     }
+
 }
