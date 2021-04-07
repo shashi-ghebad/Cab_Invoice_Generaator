@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CabInvoiceGenerator\CabInvoiceGenerator.csproj" />
+    <ProjectReference Include="..\MultipleaRides\MultipleaRides.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace CabInvoiceGenerator
+namespace MultipleaRides
 {
     class Program
     {
@@ -10,7 +14,8 @@ namespace CabInvoiceGenerator
             InvoiceGenerator invoiceGenerator = new InvoiceGenerator(RideType.NORMAL);
             double fare = invoiceGenerator.CalculateFare(2.0, 5);
             Console.WriteLine($"Fare : {fare}");
+            Console.ReadKey();
         }
-    }
 
+    }
 }
